@@ -1,6 +1,6 @@
 ### Run F-Engrave on Ubuntu
 
-https://www.gnipsel.com/fengrave/fengrave01.html works!!. I face the follwoing issues:
+https://www.gnipsel.com/fengrave/fengrave01.html works!!. I faced the following issues:
 
 Running ./fengrave for the first time, I got this error:
 ```
