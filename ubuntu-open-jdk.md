@@ -12,3 +12,5 @@
 1. sudo apt install default-jre
 1. sudo apt install default-jdk
 1. [Source : Digital Ocean Tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04)
+
+This installation caused issued for me as listed [here](https://stackoverflow.com/questions/55847497/how-do-i-troubleshoot-inconsistency-detected-dl-lookup-c-111-java-result-12)
