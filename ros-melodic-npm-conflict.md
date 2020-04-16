@@ -46,8 +46,19 @@ Package: nodejs-dev
 Pin: version 8.10.0~dfsg-2ubuntu0.2
 Pin-Priority: 1001
 ```
-Saved the file, ran `sudo apt update`, checked the pinned status using `sudo apt-cache policy`
+This gives the `8.10.0~dfsg-2ubuntu0.2` version priority of 1001, which is higher than 500 priority of `8.10.0~dfsg-2ubuntu0.4` version. I saved the file, ran `sudo apt update`, checked the pinned status using `sudo apt-cache policy`
 ```
+.
+.
+.
+500 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 Packages
+     release v=18.04,o=Ubuntu,a=bionic,n=bionic,l=Ubuntu,c=main,b=amd64
+     origin in.archive.ubuntu.com
+Pinned packages:
+     nodejs -> 8.10.0~dfsg-2ubuntu0.2 with priority 1001
+     nodejs-dev -> 8.10.0~dfsg-2ubuntu0.2 with priority 1001
+
+
 ```
 Ran `sudo apt install nodejs nodejs-dev` and then `apt install npm`, which installed npm on my machine :)
 
