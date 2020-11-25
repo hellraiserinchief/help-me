@@ -1,6 +1,12 @@
+### Burning image
+lsbls  
+xz -d < console.img.xz - | dd of=/dev/mmcblk0p3
+
+
 ### BeagleBone
-[Serial Connection](https://elinux.org/Beagleboard:BeagleBone_Black_Serial)
-Use minicom
+1. [Dekek Molly's Blog](http://derekmolloy.ie/beaglebone)
+1. [Serial Connection](https://elinux.org/Beagleboard:BeagleBone_Black_Serial). 
+1. Use minicom. 'minicom -D /dev/ttyUSB0'. Exit Alt-A then X.
 
 ### PocketBeagle
 1. [System Reference Manual](https://github.com/beagleboard/pocketbeagle/wiki/System-Reference-Manual)
