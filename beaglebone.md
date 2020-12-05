@@ -16,3 +16,6 @@ https://www.reddit.com/r/BeagleBone/comments/2n3zji/cant_flash_emmc_with_sd_card
 
 ### Share internet using USB
 https://gist.github.com/pdp7/d2711b5ff1fbb000240bd8337b859412
+
+### PRU Cookbook
+https://markayoder.github.io/PRUCookbook/
