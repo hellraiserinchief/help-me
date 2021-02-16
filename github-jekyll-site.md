@@ -1,7 +1,7 @@
 Download the minimal mistakes startup theme : https://github.com/mmistakes/mm-github-pages-starter
 
 1. `sudo apt install ruby-dev`
-1. `sudo apt install ruby-bundler`
+1. `sudo apt install ruby-bundler` or `gem install bundle`
 1. `bundle update`
 1. `bundle exec jekyll serve`
 
