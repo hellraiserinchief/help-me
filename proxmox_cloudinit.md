@@ -11,3 +11,5 @@ Unable to ssh xxx.xxx.xxx.xxx : Permission denied (publickey) / Connection close
 ```
 
 Looks like the image have `PasswordAuthentication` no in `/etc/ssh/sshd_config`. changing that to yes and `sudo service ssh reload` solved the problem.
+
+How to save cloud init configs in a snippet : https://gist.github.com/aw/ce460c2100163c38734a83e09ac0439a
