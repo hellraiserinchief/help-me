@@ -8,4 +8,19 @@
 5. `jupyter server password`
 6. Create a jupyter service in systemd : https://janakiev.com/blog/jupyter-systemd/
   
-  
+  ```
+[Unit]
+After=network.service
+Description=Jupyter Notebook
+
+[Service]
+Type=simple
+ExecStart=/home/<user>/anaconda3/bin/python3 -m jupyter notebook
+User=<user>
+Group=<user>
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+```
