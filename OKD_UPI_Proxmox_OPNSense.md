@@ -8,3 +8,6 @@ https://docs.okd.io/latest/installing/installing_bare_metal/installing-bare-meta
 
 
 https://forum.opnsense.org/index.php?PHPSESSID=qgnrm831oo17tngk8tbfvnmr10&topic=23284.0
+
+
+https://wiki.geco-it.net/public:pve_fcos
