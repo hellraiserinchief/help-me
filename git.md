@@ -3,3 +3,9 @@
 1. `git fetch upstream`
 1. `git rebase upstream/master`
 1. `git push origin master [--force]`
+
+
+Add ssh key to account  
+1. `ssh-keygen -t ed25519 -C "your_email@example.com"`
+2. `cat ~/.ssh/id_ed25519.pub`
+3. Log in to your GitHub account, navigate to "Settings" -> "SSH and GPG keys", and add a new SSH key, pasting the copied public key content.
